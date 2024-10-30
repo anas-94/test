@@ -17,10 +17,7 @@ class _CategoryItemBuilderWidgetState extends State<CategoryItemBuilderWidget> {
     return Padding(
       padding: const EdgeInsets.only(left: 15),
       child: InkWell(
-        onTap: () {
-          isSelected = !isSelected;
-          setState(() {});
-        },
+        onTap: () {},
         child: Container(
           padding: const EdgeInsets.symmetric(vertical: 9, horizontal: 13.5),
           decoration: BoxDecoration(
@@ -33,10 +30,6 @@ class _CategoryItemBuilderWidgetState extends State<CategoryItemBuilderWidget> {
             ],
             color: AppColors.praimeryButtonColor,
             borderRadius: BorderRadius.circular(7),
-          ),
-          child: const Text(
-            'UI/UX',
-            style: TextStyle(color: Colors.white),
           ),
         ),
       ),
