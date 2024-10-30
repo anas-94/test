@@ -15,10 +15,6 @@ class CustomButtonWidget extends StatelessWidget {
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(7.5),
             color: AppColors.praimeryButtonColor),
-        child: const Text(
-          'Apply',
-          style: TextStyle(color: Colors.white),
-        ),
       ),
     );
   }
